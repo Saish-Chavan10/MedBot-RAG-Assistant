@@ -1,0 +1,339 @@
+2026-07-11 12:05:36,775 | ERROR | test                      | Error test
+2026-07-11 17:14:47,371 | INFO | src.ingestion             | Loading PDF: The-Gale-Encyclopedia-of-Medicine-3rd-Edition-staibabussalamsula.ac_.id_.pdf
+2026-07-11 17:14:49,564 | INFO | src.ingestion             | Total pages: 4505
+2026-07-11 17:16:47,596 | INFO | src.ingestion             | Loading PDF: The-Gale-Encyclopedia-of-Medicine-3rd-Edition-staibabussalamsula.ac_.id_.pdf
+2026-07-11 17:16:49,781 | INFO | src.ingestion             | Total pages: 4505
+2026-07-11 17:24:05,905 | INFO | src.ingestion             | Loaded 4488 pages with content
+2026-07-11 17:26:04,983 | INFO | src.ingestion             | Loading PDF: The-Gale-Encyclopedia-of-Medicine-3rd-Edition-staibabussalamsula.ac_.id_.pdf
+2026-07-11 17:26:07,512 | INFO | src.ingestion             | Total pages: 4505
+2026-07-11 17:30:27,844 | INFO | src.ingestion             | Loaded 4488 pages with content
+2026-07-11 17:30:27,845 | INFO | src.ingestion             |  Chunking 4488 pages [size=800, overlap=100]
+2026-07-11 17:30:29,355 | INFO | src.ingestion             | Created 28475 chunks | avg size: 672 chars
+2026-07-13 11:48:25,128 | INFO | src.ingestion             | Loading PDF: The-Gale-Encyclopedia-of-Medicine-3rd-Edition-staibabussalamsula.ac_.id_.pdf
+2026-07-13 11:48:28,242 | INFO | src.ingestion             | Total pages: 4505
+2026-07-13 11:54:22,370 | INFO | src.ingestion             | Loaded 4488 pages with content
+2026-07-13 11:54:22,371 | INFO | src.ingestion             |  Chunking 4488 pages [size=800, overlap=100]
+2026-07-13 11:54:23,892 | INFO | src.ingestion             | Created 28475 chunks | avg size: 672 chars
+2026-07-13 11:54:29,722 | INFO | src.vectorstore           | inex 'medbot-gale' already exist - skipping creation
+2026-07-13 12:08:13,311 | INFO | src.ingestion             | Loading PDF: The-Gale-Encyclopedia-of-Medicine-3rd-Edition-staibabussalamsula.ac_.id_.pdf
+2026-07-13 12:08:19,483 | INFO | src.ingestion             | Total pages: 4505
+2026-07-13 12:14:43,451 | INFO | src.ingestion             | Loaded 4488 pages with content
+2026-07-13 12:14:43,453 | INFO | src.ingestion             |  Chunking 4488 pages [size=800, overlap=100]
+2026-07-13 12:14:46,638 | INFO | src.ingestion             | Created 28475 chunks | avg size: 672 chars
+2026-07-13 12:14:49,859 | INFO | src.vectorstore           | inex 'medbot-gale' already exist - skipping creation
+2026-07-13 12:18:27,501 | INFO | src.vectorstore           | Upserting 28475 chunks to Pinecone....
+2026-07-13 12:18:27,507 | ERROR | src.vectorstore           | Batch 1 failed: Pinecone API key must be provided in either `pinecone_api_key` or `PINECONE_API_KEY` environment variable
+2026-07-13 12:29:33,039 | INFO | src.ingestion             | Loading PDF: The-Gale-Encyclopedia-of-Medicine-3rd-Edition-staibabussalamsula.ac_.id_.pdf
+2026-07-13 12:29:36,581 | INFO | src.ingestion             | Total pages: 4505
+2026-07-13 12:35:48,917 | INFO | src.ingestion             | Loaded 4488 pages with content
+2026-07-13 12:35:48,918 | INFO | src.ingestion             |  Chunking 4488 pages [size=800, overlap=100]
+2026-07-13 12:35:50,752 | INFO | src.ingestion             | Created 28475 chunks | avg size: 672 chars
+2026-07-13 12:38:47,673 | INFO | src.ingestion             | Loading PDF: The-Gale-Encyclopedia-of-Medicine-3rd-Edition-staibabussalamsula.ac_.id_.pdf
+2026-07-13 12:38:51,039 | INFO | src.ingestion             | Total pages: 4505
+2026-07-13 12:45:57,787 | INFO | src.ingestion             | Loaded 4488 pages with content
+2026-07-13 12:45:57,789 | INFO | src.ingestion             |  Chunking 4488 pages [size=800, overlap=100]
+2026-07-13 12:45:59,242 | INFO | src.ingestion             | Created 28475 chunks | avg size: 672 chars
+2026-07-13 12:46:02,484 | INFO | src.vectorstore           | inex 'medbot-gale' already exist - skipping creation
+2026-07-13 12:46:52,157 | INFO | src.vectorstore           | Upserting 28475 chunks to Pinecone....
+2026-07-13 12:50:34,296 | ERROR | src.vectorstore           | Batch 1 failed: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Date': 'Mon, 13 Jul 2026 07:20:33 GMT', 'Content-Type': 'application/json', 'Content-Length': '103', 'Connection': 'keep-alive', 'x-pinecone-request-latency-ms': '25', 'x-envoy-upstream-service-time': '26', 'x-pinecone-response-duration-ms': '43976', 'server': 'envoy'})
+HTTP response body: {"code":3,"message":"Vector dimension 768 does not match the dimension of the index 1024","details":[]}
+
+2026-07-13 12:58:48,399 | INFO | src.ingestion             | Loading PDF: The-Gale-Encyclopedia-of-Medicine-3rd-Edition-staibabussalamsula.ac_.id_.pdf
+2026-07-13 12:58:51,512 | INFO | src.ingestion             | Total pages: 4505
+2026-07-13 13:04:51,722 | INFO | src.ingestion             | Loaded 4488 pages with content
+2026-07-13 13:04:51,723 | INFO | src.ingestion             |  Chunking 4488 pages [size=800, overlap=100]
+2026-07-13 13:04:53,277 | INFO | src.ingestion             | Created 28475 chunks | avg size: 672 chars
+2026-07-13 13:05:01,367 | INFO | src.vectorstore           | Creating index 'medbot-gale [dim=1024]
+2026-07-13 13:43:57,996 | INFO | src.ingestion             | Loading PDF: The-Gale-Encyclopedia-of-Medicine-3rd-Edition-staibabussalamsula.ac_.id_.pdf
+2026-07-13 13:44:00,721 | INFO | src.ingestion             | Total pages: 4505
+2026-07-13 13:49:40,635 | INFO | src.ingestion             | Loaded 4488 pages with content
+2026-07-13 13:49:40,636 | INFO | src.ingestion             |  Chunking 4488 pages [size=800, overlap=100]
+2026-07-13 13:49:42,010 | INFO | src.ingestion             | Created 28475 chunks | avg size: 672 chars
+2026-07-13 13:49:46,215 | INFO | src.vectorstore           | Creating index 'medbot-gale [dim=1024]
+2026-07-13 13:49:51,367 | INFO | src.vectorstore           | Waiting for index to be ready
+2026-07-13 13:52:11,696 | INFO | src.ingestion             | Loading PDF: The-Gale-Encyclopedia-of-Medicine-3rd-Edition-staibabussalamsula.ac_.id_.pdf
+2026-07-13 13:52:14,247 | INFO | src.ingestion             | Total pages: 4505
+2026-07-13 13:57:48,002 | INFO | src.ingestion             | Loaded 4488 pages with content
+2026-07-13 13:57:48,003 | INFO | src.ingestion             |  Chunking 4488 pages [size=800, overlap=100]
+2026-07-13 13:57:49,353 | INFO | src.ingestion             | Created 28475 chunks | avg size: 672 chars
+2026-07-13 13:57:53,032 | INFO | src.vectorstore           | inex 'medbot-gale' already exist - skipping creation
+2026-07-13 13:58:28,390 | INFO | src.vectorstore           | Upserting 28475 chunks to Pinecone....
+2026-07-13 14:01:30,658 | ERROR | src.vectorstore           | Batch 1 failed: (400)
+Reason: Bad Request
+HTTP response headers: HTTPHeaderDict({'Date': 'Mon, 13 Jul 2026 08:31:30 GMT', 'Content-Type': 'application/json', 'Content-Length': '103', 'Connection': 'keep-alive', 'x-pinecone-request-latency-ms': '23', 'x-envoy-upstream-service-time': '30', 'x-pinecone-response-duration-ms': '12186', 'server': 'envoy'})
+HTTP response body: {"code":3,"message":"Vector dimension 768 does not match the dimension of the index 1024","details":[]}
+
+2026-07-13 19:11:20,166 | INFO | src.ingestion             | Loading PDF: The-Gale-Encyclopedia-of-Medicine-3rd-Edition-staibabussalamsula.ac_.id_.pdf
+2026-07-13 19:11:22,947 | INFO | src.ingestion             | Total pages: 4505
+2026-07-13 19:15:30,268 | INFO | src.ingestion             | Loaded 4488 pages with content
+2026-07-13 19:15:30,268 | INFO | src.ingestion             |  Chunking 4488 pages [size=800, overlap=100]
+2026-07-13 19:15:31,289 | INFO | src.ingestion             | Created 28475 chunks | avg size: 672 chars
+2026-07-13 19:15:34,857 | INFO | src.vectorstore           | Creating index 'medbot-gale [dim=768]
+2026-07-13 19:15:44,629 | INFO | src.vectorstore           | Waiting for index to be ready
+2026-07-13 19:15:45,689 | INFO | src.vectorstore           |  Index is ready
+2026-07-13 19:16:01,930 | INFO | src.vectorstore           | Upserting 28475 chunks to Pinecone....
+2026-07-14 14:51:32,778 | INFO | src.ingestion             | Loading PDF: The-Gale-Encyclopedia-of-Medicine-3rd-Edition-staibabussalamsula.ac_.id_.pdf
+2026-07-14 14:51:36,007 | INFO | src.ingestion             | Total pages: 4505
+2026-07-14 14:57:04,232 | INFO | src.ingestion             | Loaded 4488 pages with content
+2026-07-14 14:57:04,233 | INFO | src.ingestion             |  Chunking 4488 pages [size=800, overlap=100]
+2026-07-14 14:57:05,676 | INFO | src.ingestion             | Created 28475 chunks | avg size: 672 chars
+2026-07-14 14:59:36,494 | INFO | src.ingestion             | Loading PDF: The-Gale-Encyclopedia-of-Medicine-3rd-Edition-staibabussalamsula.ac_.id_.pdf
+2026-07-14 14:59:39,015 | INFO | src.ingestion             | Total pages: 4505
+2026-07-14 15:05:07,962 | INFO | src.ingestion             | Loaded 4488 pages with content
+2026-07-14 15:05:07,963 | INFO | src.ingestion             |  Chunking 4488 pages [size=800, overlap=100]
+2026-07-14 15:05:09,338 | INFO | src.ingestion             | Created 28475 chunks | avg size: 672 chars
+2026-07-14 15:05:19,996 | INFO | src.vectorstore           | index 'medbot-gale' already exist - skipping creation
+2026-07-14 15:05:51,353 | INFO | src.vectorstore           | Upserting 75 chunks to Pinecone....
+2026-07-14 15:08:21,591 | INFO | src.vectorstore           | Done - 75 chunks stored in Pinecone
+2026-07-14 15:28:02,962 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-14 15:28:43,388 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-15 11:39:45,759 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-15 11:40:07,429 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-15 11:40:08,665 | INFO | src.RAG_chain             | RAG chain built [model=llama3, temp=0.3]
+2026-07-15 11:40:08,667 | INFO | src.RAG_chain             | Question: What are the symptoms of malaria?
+2026-07-15 12:08:57,715 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-15 12:09:11,172 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-15 12:09:12,296 | INFO | src.RAG_chain             | RAG chain built [model=llama3, temp=0.3]
+2026-07-15 12:09:12,297 | INFO | src.RAG_chain             | Question: What are the symptoms of malaria?
+2026-07-16 14:09:20,949 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-16 14:17:46,193 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-16 14:17:52,268 | INFO | src.RAG_chain             | RAG chain built [model=llama3, temp=0.3]
+2026-07-16 14:17:52,278 | INFO | src.RAG_chain             | Question: What are the symptoms of malaria?
+2026-07-16 14:25:32,176 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-16 14:25:43,336 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-16 14:25:44,811 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-16 14:25:44,812 | INFO | src.RAG_chain             | Question: What are the symptoms of malaria?
+2026-07-16 14:27:53,151 | INFO | src.RAG_chain             | Answer generated | sources: pages [2348.0, 352.0]
+2026-07-16 21:33:34,916 | INFO | src.auth                  | Register attempt :test@medbot.com
+2026-07-16 21:35:19,844 | INFO | src.auth                  | Register attempt :test@medbot.com
+2026-07-16 21:40:27,778 | INFO | src.auth                  | Register attempt :test@medbot.com
+2026-07-16 21:47:23,440 | INFO | src.auth                  | Register attempt :test@medbot.com
+2026-07-16 21:47:25,619 | INFO | src.auth                  | User Registered: test@medbot.com
+2026-07-16 21:47:25,621 | INFO | src.auth                  | Login Attempt: test@medbot.com
+2026-07-16 21:47:26,593 | INFO | src.auth                  | Login Success: test@medbot.com
+2026-07-17 14:52:46,974 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-17 14:52:46,982 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-17 14:53:48,196 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-17 14:53:49,329 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-17 14:53:49,331 | INFO | __main__                  | rag pipeline is ready
+2026-07-17 14:53:49,341 | INFO | __main__                  | medbot starting on port 8080
+2026-07-17 14:54:49,800 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-17 14:54:49,810 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-17 14:55:10,633 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-17 14:55:11,915 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-17 14:55:11,916 | INFO | __main__                  | rag pipeline is ready
+2026-07-17 14:55:11,927 | INFO | __main__                  | medbot starting on port 8080
+2026-07-17 15:16:37,318 | INFO | src.auth                  | Register attempt :saishchavan154@gmail.com
+2026-07-17 15:16:42,460 | INFO | src.auth                  | User Registered: saishchavan154@gmail.com
+2026-07-17 15:16:42,462 | INFO | __main__                  | new user is registered with saishchavan154@gmail.com
+2026-07-17 15:17:01,275 | INFO | src.chat_store            | session created f438c10f-ae99-4fcd-9096-7bbeaf55f75e for user f08d2d1a-4c05-44af-aa48-9e4a0e72467d
+2026-07-17 15:17:01,770 | INFO | src.chat_store            | session created 6a9cbd0e-abda-47c6-b444-f74ec46a0dc9 for user f08d2d1a-4c05-44af-aa48-9e4a0e72467d
+2026-07-17 15:24:52,537 | INFO | src.chat_store            | session created 1b28bb47-276e-4d28-a5a2-45a8d1638d60 for user f08d2d1a-4c05-44af-aa48-9e4a0e72467d
+2026-07-17 15:24:53,524 | INFO | src.chat_store            | message saved user in session 1b28bb47-276e-4d28-a5a2-45a8d1638d60
+2026-07-17 15:24:54,270 | INFO | src.chat_store            | session title updated
+2026-07-17 15:25:04,217 | INFO | src.chat_store            | session deleted f438c10f-ae99-4fcd-9096-7bbeaf55f75e
+2026-07-17 15:25:13,372 | ERROR | __main__                  | streaming error: 'VectorStoreRetriever' object has no attribute 'get_relevant_documents'
+2026-07-17 15:33:59,420 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-17 15:33:59,421 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-17 15:34:27,015 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-17 15:34:28,059 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-17 15:34:28,060 | INFO | __main__                  | rag pipeline is ready
+2026-07-17 15:34:28,069 | INFO | __main__                  | medbot starting on port 8080
+2026-07-17 15:34:33,149 | INFO | src.chat_store            | session created 00ba96ca-569f-4fa9-a382-5c69536e1c1a for user f08d2d1a-4c05-44af-aa48-9e4a0e72467d
+2026-07-17 15:34:33,425 | INFO | src.chat_store            | session created 506d0399-a3c8-46a0-8e01-38150f416964 for user f08d2d1a-4c05-44af-aa48-9e4a0e72467d
+2026-07-17 15:34:33,427 | INFO | src.chat_store            | session created 21d907e9-acec-4575-bd1c-c49f403af492 for user f08d2d1a-4c05-44af-aa48-9e4a0e72467d
+2026-07-17 15:34:33,651 | INFO | src.chat_store            | session created 3f5d0ea3-4479-43c6-aed0-603ccc79bbf6 for user f08d2d1a-4c05-44af-aa48-9e4a0e72467d
+2026-07-17 15:34:34,466 | INFO | src.chat_store            | message saved user in session 00ba96ca-569f-4fa9-a382-5c69536e1c1a
+2026-07-17 15:34:34,774 | INFO | src.chat_store            | message saved user in session 506d0399-a3c8-46a0-8e01-38150f416964
+2026-07-17 15:34:34,776 | INFO | src.chat_store            | message saved user in session 21d907e9-acec-4575-bd1c-c49f403af492
+2026-07-17 15:34:34,982 | INFO | src.chat_store            | message saved user in session 3f5d0ea3-4479-43c6-aed0-603ccc79bbf6
+2026-07-17 15:34:35,692 | INFO | src.chat_store            | session title updated
+2026-07-17 15:34:35,802 | INFO | src.chat_store            | session title updated
+2026-07-17 15:34:35,997 | INFO | src.chat_store            | session title updated
+2026-07-17 15:34:35,998 | INFO | src.chat_store            | session title updated
+2026-07-17 15:34:49,248 | ERROR | __main__                  | streaming error: name 'prompt' is not defined
+2026-07-17 15:34:57,816 | ERROR | __main__                  | streaming error: name 'prompt' is not defined
+2026-07-17 15:35:00,170 | ERROR | __main__                  | streaming error: name 'prompt' is not defined
+2026-07-17 15:35:01,008 | ERROR | __main__                  | streaming error: name 'prompt' is not defined
+2026-07-17 15:36:08,958 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-17 15:36:08,958 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-17 15:36:35,101 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-17 15:36:36,334 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-17 15:36:36,335 | INFO | __main__                  | rag pipeline is ready
+2026-07-17 15:36:36,350 | INFO | __main__                  | medbot starting on port 8080
+2026-07-17 15:41:51,456 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-17 15:41:51,464 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-17 15:41:53,065 | ERROR | __main__                  | failed to init rag pipeline: Cannot send a request, as the client has been closed.
+2026-07-17 15:41:53,105 | INFO | __main__                  | medbot starting on port 8080
+2026-07-17 15:42:33,994 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-17 15:42:34,008 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-17 15:42:35,944 | ERROR | __main__                  | failed to init rag pipeline: Cannot send a request, as the client has been closed.
+2026-07-17 15:42:35,963 | INFO | __main__                  | medbot starting on port 8080
+2026-07-17 21:15:24,647 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-17 21:15:24,693 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-17 21:15:34,510 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-17 21:15:35,202 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-17 21:15:35,203 | INFO | __main__                  | rag pipeline is ready
+2026-07-17 21:15:35,212 | INFO | __main__                  | medbot starting on port 8080
+2026-07-17 21:15:56,165 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-17 21:15:56,167 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-17 21:16:06,181 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-17 21:16:06,967 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-17 21:16:06,968 | INFO | __main__                  | rag pipeline is ready
+2026-07-17 21:16:06,976 | INFO | __main__                  | medbot starting on port 8080
+2026-07-17 21:16:26,142 | INFO | src.chat_store            | session deleted 3f5d0ea3-4479-43c6-aed0-603ccc79bbf6
+2026-07-17 21:16:27,769 | INFO | src.chat_store            | session deleted 21d907e9-acec-4575-bd1c-c49f403af492
+2026-07-17 21:16:28,872 | INFO | src.chat_store            | session deleted 506d0399-a3c8-46a0-8e01-38150f416964
+2026-07-17 21:16:29,909 | INFO | src.chat_store            | session deleted 00ba96ca-569f-4fa9-a382-5c69536e1c1a
+2026-07-17 21:16:30,965 | INFO | src.chat_store            | session deleted 1b28bb47-276e-4d28-a5a2-45a8d1638d60
+2026-07-17 21:16:33,829 | INFO | src.chat_store            | session deleted 6a9cbd0e-abda-47c6-b444-f74ec46a0dc9
+2026-07-17 21:16:40,173 | INFO | src.chat_store            | session created b73effbd-0d59-4896-a7b5-0a7a6b88d013 for user f08d2d1a-4c05-44af-aa48-9e4a0e72467d
+2026-07-17 21:16:40,596 | INFO | src.chat_store            | message saved user in session b73effbd-0d59-4896-a7b5-0a7a6b88d013
+2026-07-17 21:16:40,820 | INFO | src.chat_store            | session title updated
+2026-07-17 21:16:46,395 | ERROR | __main__                  | streaming error: 'input'
+2026-07-17 21:23:45,095 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-17 21:23:45,096 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-17 21:23:55,429 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-17 21:23:56,449 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-17 21:23:56,449 | INFO | __main__                  | rag pipeline is ready
+2026-07-17 21:23:56,459 | INFO | __main__                  | medbot starting on port 8080
+2026-07-17 21:25:58,328 | INFO | src.chat_store            | session created fda48d98-4ee7-4a72-bd34-1671f0688ef1 for user f08d2d1a-4c05-44af-aa48-9e4a0e72467d
+2026-07-17 21:25:59,347 | INFO | src.chat_store            | message saved user in session fda48d98-4ee7-4a72-bd34-1671f0688ef1
+2026-07-17 21:26:00,153 | INFO | src.chat_store            | session title updated
+2026-07-17 21:26:05,916 | ERROR | __main__                  | streaming error: 'input'
+2026-07-17 22:03:36,764 | INFO | src.chat_store            | session created a923bf61-84ae-49c7-b9d4-2f0d7f0bb530 for user f08d2d1a-4c05-44af-aa48-9e4a0e72467d
+2026-07-17 22:03:37,566 | INFO | src.chat_store            | message saved user in session a923bf61-84ae-49c7-b9d4-2f0d7f0bb530
+2026-07-17 22:03:37,992 | INFO | src.chat_store            | session title updated
+2026-07-17 22:03:43,815 | ERROR | __main__                  | streaming error: 'input'
+2026-07-17 22:05:01,742 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-17 22:05:01,767 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-17 22:05:15,134 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-17 22:05:15,926 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-17 22:05:15,927 | INFO | __main__                  | rag pipeline is ready
+2026-07-17 22:05:15,935 | INFO | __main__                  | medbot starting on port 8080
+2026-07-17 22:05:39,419 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-17 22:05:39,419 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-17 22:05:50,695 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-17 22:05:51,436 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-17 22:05:51,437 | INFO | __main__                  | rag pipeline is ready
+2026-07-17 22:05:51,445 | INFO | __main__                  | medbot starting on port 8080
+2026-07-17 22:06:11,921 | INFO | src.chat_store            | session created 3b597cff-6bf6-4ca3-abd3-ee0c4a9964d4 for user f08d2d1a-4c05-44af-aa48-9e4a0e72467d
+2026-07-17 22:06:12,744 | INFO | src.chat_store            | message saved user in session 3b597cff-6bf6-4ca3-abd3-ee0c4a9964d4
+2026-07-17 22:06:13,172 | INFO | src.chat_store            | session title updated
+2026-07-17 22:06:18,589 | ERROR | __main__                  | streaming error: 'input'
+2026-07-17 22:22:30,548 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-17 22:22:30,550 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-17 22:22:43,129 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-17 22:22:43,809 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-17 22:22:43,810 | INFO | __main__                  | rag pipeline is ready
+2026-07-17 22:22:43,818 | INFO | __main__                  | medbot starting on port 8080
+2026-07-17 22:22:45,909 | INFO | src.chat_store            | session created e1c00e75-1acf-46de-9618-1b4968f798c8 for user f08d2d1a-4c05-44af-aa48-9e4a0e72467d
+2026-07-17 22:22:46,595 | INFO | src.chat_store            | message saved user in session e1c00e75-1acf-46de-9618-1b4968f798c8
+2026-07-17 22:22:46,758 | INFO | src.chat_store            | session title updated
+2026-07-17 22:22:51,224 | ERROR | __main__                  | streaming error: 1 validation error for ChatOllama
+model
+  Field required [type=missing, input_value={'api_key': 'http://localhost:11434'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+2026-07-17 22:29:34,717 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-17 22:29:34,718 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-17 22:29:45,163 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-17 22:29:45,875 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-17 22:29:45,875 | INFO | __main__                  | rag pipeline is ready
+2026-07-17 22:29:45,884 | INFO | __main__                  | medbot starting on port 8080
+2026-07-17 22:29:55,939 | INFO | src.chat_store            | session created cc29e24b-c762-4aa1-8483-7ce8a401e656 for user f08d2d1a-4c05-44af-aa48-9e4a0e72467d
+2026-07-17 22:29:56,745 | INFO | src.chat_store            | message saved user in session cc29e24b-c762-4aa1-8483-7ce8a401e656
+2026-07-17 22:29:57,195 | INFO | src.chat_store            | session title updated
+2026-07-17 22:29:59,915 | ERROR | __main__                  | streaming error: 1 validation error for ChatOllama
+model
+  Field required [type=missing, input_value={'Bae_': 'http://localhost:11434'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+2026-07-17 22:39:43,513 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-17 22:39:43,516 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-17 22:39:54,654 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-17 22:39:55,482 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-17 22:39:55,483 | INFO | __main__                  | rag pipeline is ready
+2026-07-17 22:39:55,498 | INFO | __main__                  | medbot starting on port 8080
+2026-07-17 22:40:17,105 | INFO | src.chat_store            | session created 3a867b16-4b88-4adb-9911-489176d81150 for user f08d2d1a-4c05-44af-aa48-9e4a0e72467d
+2026-07-17 22:40:19,223 | INFO | src.chat_store            | message saved user in session 3a867b16-4b88-4adb-9911-489176d81150
+2026-07-17 22:40:22,304 | INFO | src.chat_store            | session title updated
+2026-07-17 22:44:07,204 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-17 22:44:07,205 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-17 22:44:18,547 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-17 22:44:20,065 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-17 22:44:20,067 | INFO | __main__                  | rag pipeline is ready
+2026-07-17 22:44:20,081 | INFO | __main__                  | medbot starting on port 8080
+2026-07-17 22:46:04,199 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-17 22:46:04,199 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-17 22:46:14,882 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-17 22:46:15,893 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-17 22:46:15,894 | INFO | __main__                  | rag pipeline is ready
+2026-07-17 22:46:15,906 | INFO | __main__                  | medbot starting on port 8080
+2026-07-17 22:46:35,906 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-17 22:46:35,907 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-17 22:46:46,463 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-17 22:46:47,150 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-17 22:46:47,150 | INFO | __main__                  | rag pipeline is ready
+2026-07-17 22:46:47,164 | INFO | __main__                  | medbot starting on port 8080
+2026-07-17 22:48:26,513 | INFO | src.chat_store            | session created a892ccf7-15e8-43df-8de2-8e31dd0d638c for user f08d2d1a-4c05-44af-aa48-9e4a0e72467d
+2026-07-17 22:48:57,913 | INFO | src.chat_store            | message saved user in session a892ccf7-15e8-43df-8de2-8e31dd0d638c
+2026-07-17 22:49:00,791 | INFO | src.chat_store            | session title updated
+2026-07-18 15:22:24,001 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-18 15:22:24,007 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-18 15:22:39,263 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-18 15:22:40,402 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-18 15:22:40,403 | INFO | __main__                  | rag pipeline is ready
+2026-07-18 15:22:40,417 | INFO | __main__                  | medbot starting on port 8080
+2026-07-18 15:23:20,732 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-18 15:23:20,733 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-18 15:23:41,199 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-18 15:23:45,989 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-18 15:23:46,053 | INFO | __main__                  | rag pipeline is ready
+2026-07-18 15:23:46,129 | INFO | __main__                  | medbot starting on port 8080
+2026-07-18 15:43:02,233 | INFO | src.auth                  | Login Attempt: saishchavan154@gmail.com
+2026-07-18 15:43:06,019 | INFO | src.auth                  | Login Success: saishchavan154@gmail.com
+2026-07-18 15:43:08,665 | INFO | src.chat_store            | session created 320bcf6f-fcd4-4d03-b4f6-cc166df0e7d9 for user f08d2d1a-4c05-44af-aa48-9e4a0e72467d
+2026-07-18 15:43:09,521 | INFO | src.chat_store            | message saved user in session 320bcf6f-fcd4-4d03-b4f6-cc166df0e7d9
+2026-07-18 15:43:09,860 | INFO | src.chat_store            | session title updated
+2026-07-18 15:45:45,933 | INFO | src.chat_store            | message saved bot in session 320bcf6f-fcd4-4d03-b4f6-cc166df0e7d9
+2026-07-18 15:46:27,110 | INFO | src.chat_store            | session deleted 320bcf6f-fcd4-4d03-b4f6-cc166df0e7d9
+2026-07-18 15:46:28,018 | INFO | src.chat_store            | session deleted a892ccf7-15e8-43df-8de2-8e31dd0d638c
+2026-07-18 15:46:29,353 | INFO | src.chat_store            | session deleted 3a867b16-4b88-4adb-9911-489176d81150
+2026-07-18 15:46:30,938 | INFO | src.chat_store            | session deleted cc29e24b-c762-4aa1-8483-7ce8a401e656
+2026-07-18 15:46:30,940 | INFO | src.chat_store            | session deleted cc29e24b-c762-4aa1-8483-7ce8a401e656
+2026-07-18 15:46:33,826 | INFO | src.chat_store            | session deleted e1c00e75-1acf-46de-9618-1b4968f798c8
+2026-07-18 15:46:35,811 | INFO | src.chat_store            | session deleted 3b597cff-6bf6-4ca3-abd3-ee0c4a9964d4
+2026-07-18 15:46:37,704 | INFO | src.chat_store            | session deleted a923bf61-84ae-49c7-b9d4-2f0d7f0bb530
+2026-07-18 15:46:39,502 | INFO | src.chat_store            | session deleted fda48d98-4ee7-4a72-bd34-1671f0688ef1
+2026-07-18 15:46:41,617 | INFO | src.chat_store            | session deleted b73effbd-0d59-4896-a7b5-0a7a6b88d013
+2026-07-18 15:47:56,992 | INFO | src.chat_store            | session created d98b35c0-6155-42c0-8545-cdda4991c9cb for user f08d2d1a-4c05-44af-aa48-9e4a0e72467d
+2026-07-18 15:47:57,610 | INFO | src.chat_store            | message saved user in session d98b35c0-6155-42c0-8545-cdda4991c9cb
+2026-07-18 15:47:58,456 | INFO | src.chat_store            | session title updated
+2026-07-18 15:49:23,449 | INFO | src.chat_store            | message saved bot in session d98b35c0-6155-42c0-8545-cdda4991c9cb
+2026-07-18 16:00:44,248 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-18 16:00:44,249 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-18 16:01:04,637 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-18 16:01:06,486 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-18 16:01:06,487 | INFO | __main__                  | rag pipeline is ready
+2026-07-18 16:01:06,498 | INFO | __main__                  | medbot starting on port 8080
+2026-07-18 16:22:57,100 | INFO | src.chat_store            | session created 94b65c82-7d7d-49da-a014-bac349f8a08c for user f08d2d1a-4c05-44af-aa48-9e4a0e72467d
+2026-07-18 16:22:57,903 | INFO | src.chat_store            | message saved user in session 94b65c82-7d7d-49da-a014-bac349f8a08c
+2026-07-18 16:22:58,775 | INFO | src.chat_store            | session title updated
+2026-07-18 16:24:36,398 | INFO | src.chat_store            | message saved bot in session 94b65c82-7d7d-49da-a014-bac349f8a08c
+2026-07-20 17:39:31,336 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-20 17:39:31,384 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-20 17:39:44,564 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-20 17:39:45,690 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-20 17:39:45,690 | INFO | __main__                  | rag pipeline is ready
+2026-07-20 17:39:45,702 | INFO | __main__                  | medbot starting on port 8080
+2026-07-20 17:40:32,623 | INFO | __main__                  | Initializing the rag pipeline
+2026-07-20 17:40:32,625 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-07-20 17:40:44,904 | INFO | src.vectorstore           | Vector tore loaded
+2026-07-20 17:40:47,939 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-07-20 17:40:47,939 | INFO | __main__                  | rag pipeline is ready
+2026-07-20 17:40:47,955 | INFO | __main__                  | medbot starting on port 8080
+2026-07-20 17:40:58,393 | INFO | src.auth                  | Login Attempt: saishchavan154@gmail.com
+2026-07-20 17:41:02,609 | WARNING | src.auth                  | Login Faile - wrong pasword: saishchavan154@gmail.com
+2026-07-20 17:41:14,100 | INFO | src.auth                  | Login Attempt: saishchavan154@gmail.com
+2026-07-20 17:41:16,706 | INFO | src.auth                  | Login Success: saishchavan154@gmail.com
