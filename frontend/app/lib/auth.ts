@@ -33,6 +33,6 @@ export function isLoggedIn():boolean {
 }
 
 export function logout(): void {
-    Cookies.remove(TOKEN_KEY);
-    Cookies.remove(USER_KEY)
+    Cookies.remove(TOKEN_KEY, { path: "/" });
+    Cookies.remove(USER_KEY, { path: "/" });
 }

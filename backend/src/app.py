@@ -9,7 +9,7 @@ from functools import wraps
 # Ensure python looks in the right directory for imports
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from config import FLASK_SECRET_KEY, FLASK_DEBUG, FLASK_PORT, OLLAMA_BASE_URL, LLM_MODEL, LLM_TEMPERATURE
+from config import FLASK_SECRET_KEY, FLASK_DEBUG, FLASK_PORT, OLLAMA_BASE_URL, LLM_MODEL, LLM_TEMPERATURE, MAX_TOKENS_RESPONSE
 from src.RAG_chain import build_rag_chain, build_streaming_chain, PROMPT
 from src.vectorstore import load_vectorstore, get_retriever
 from src.auth import register_user, login_user, verify_token
@@ -181,7 +181,8 @@ def chat_stream():
             llm = ChatOllama(
                 model=LLM_MODEL, 
                 base_url=OLLAMA_BASE_URL, 
-                temperature=LLM_TEMPERATURE
+                temperature=LLM_TEMPERATURE,
+                num_predict=MAX_TOKENS_RESPONSE,
             )
             
             full_prompt = PROMPT.format(context=context, input=question)

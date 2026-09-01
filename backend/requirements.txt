@@ -1,39 +1,33 @@
-langchain==0.3.25
-
-langchain-openai==0.3.16
-
+# RAG / LangChain
+langchain==1.2.15
+langchain-classic==1.0.8
+langchain-community==0.4.1
 langchain-pinecone==0.2.13
+langchain-huggingface==1.2.1
+langchain-ollama==1.0.1
 
-langchain-community==0.3.24
+# Embeddings
+sentence-transformers==5.2.3
 
-openai==1.82.0
-
+# Vector Database
 pinecone-client==4.1.0
 
+# Document Processing
 pypdf==4.3.1
-
-Flask==3.0.3
-
-Flask-Cors==5.0.0
-
-python-dotenv==1.0.1
-
 tiktoken==0.9.0
 
-tqdm==4.66.5
+# Web API
+Flask==3.0.3
+Flask-Cors==5.0.0
+python-dotenv==1.0.1
 
-colorlog==6.8.2
-
-tenacity==8.5.0
-
-pytest==8.3.3
-
-supabase==2.15.1
-
+# Authentication
 PyJWT==2.10.1
-
 bcrypt==4.3.0
 
-langchain-huggingface
+# Database
+supabase==2.15.1
 
-langchain-ollama
+# Utilities
+colorlog==6.8.2
+tenacity==8.5.0

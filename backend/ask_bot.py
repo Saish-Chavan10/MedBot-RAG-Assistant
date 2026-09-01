@@ -17,4 +17,3 @@ print(result["answer"])
 print("\n--- SOURCES ---")
 for s in result["sources"]:
     print(f"Page {s[\"page\"]}: {s[\"preview\"]}")
-

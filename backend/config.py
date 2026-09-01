@@ -19,9 +19,9 @@ PINECONE_KEY:str = _require("PINECONE_API_KEY")
 PINECONE_INDEX_NAME:str = os.getenv("PINECONE_INDEX_NAME","medbot-gale")
 PINECONE_ENVIRONMENT:str = os.getenv("PINECONE_ENVIRONMENT", "us-east-1")
 
-LLM_MODEL:str = os.getenv("LLM_MOEL", "qwen2:1.5b")
+LLM_MODEL:str = os.getenv("LLM_MODEL", "qwen2:1.5b")
 EMBEDDING_MODEL_NAME:str = os.getenv("EMBEDDING_MODEL_NAME", "NeuML/pubmedbert-base-embeddings")
-EMBEDDING_DIMENSION:int = os.getenv("EMBEDDING_DIMENSIOSN","768")
+EMBEDDING_DIMENSION:int = os.getenv("EMBEDDING_DIMENSION","768")
 
 CHUNK_SIZE:int =int(os.getenv("CHUNK_SIZE", "800"))
 CHUNK_OVERLAP:int = int(os.getenv("CHUNK_OVERLAP", "100"))
