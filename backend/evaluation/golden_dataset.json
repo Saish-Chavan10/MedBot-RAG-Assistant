@@ -1,0 +1,178 @@
+[
+  {
+    "id": "gem_001",
+    "topic": "Abdominal pain",
+    "category": "Symptoms and Conditions",
+    "query": "What is abdominal pain and what are some of its primary diagnostic categories?",
+    "ground_truth": "Abdominal pain refers to discomfort or pain felt anywhere between the chest and groin. In The Gale Encyclopedia of Medicine, it is categorized based on its origin, such as acute abdominal conditions (e.g., appendicitis, bowel obstruction) or chronic functional disorders (e.g., irritable bowel syndrome)."
+  },
+  {
+    "id": "gem_002",
+    "topic": "Acquired immunodeficiency syndrome (AIDS)",
+    "category": "Diseases and Disorders",
+    "query": "How is AIDS defined and what virus causes it?",
+    "ground_truth": "Acquired immunodeficiency syndrome (AIDS) is the final and most advanced stage of infection caused by the human immunodeficiency virus (HIV). It is characterized by severe damage to the immune system, leaving the body vulnerable to opportunistic infections and cancers."
+  },
+  {
+    "id": "gem_003",
+    "topic": "Alzheimer's disease",
+    "category": "Neurological Disorders",
+    "query": "What are the primary pathological hallmarks and symptoms of Alzheimer's disease?",
+    "ground_truth": "Alzheimer's disease is a progressive, degenerative neurological disorder characterized by the accumulation of amyloid plaques and neurofibrillary tangles in the brain. Symptoms include progressive memory loss, cognitive decline, personality changes, and eventual inability to perform daily activities."
+  },
+  {
+    "id": "gem_004",
+    "topic": "Anemia",
+    "category": "Blood Disorders",
+    "query": "What is anemia and what is its fundamental physiological effect?",
+    "ground_truth": "Anemia is a condition characterized by a lower-than-normal number of red blood cells or insufficient hemoglobin, which reduces the oxygen-carrying capacity of the blood and leads to symptoms like fatigue, weakness, and pallor."
+  },
+  {
+    "id": "gem_005",
+    "topic": "Appendicitis",
+    "category": "Gastrointestinal Disorders",
+    "query": "What is appendicitis and what is the standard medical treatment?",
+    "ground_truth": "Appendicitis is the inflammation of the appendix, a small pouch attached to the large intestine. It typically presents with periumbilical pain that shifts to the lower right abdomen, accompanied by nausea and fever. The standard treatment is surgical removal (appendectomy) to prevent rupture."
+  },
+  {
+    "id": "gem_006",
+    "topic": "Asthma",
+    "category": "Respiratory Disorders",
+    "query": "Describe asthma and its primary physiological triggers.",
+    "ground_truth": "Asthma is a chronic inflammatory disorder of the airways characterized by intermittent narrowing, mucus hypersecretion, and bronchospasm. Common triggers include allergens (pollen, dust mites), exercise, cold air, respiratory infections, and irritants like smoke."
+  },
+  {
+    "id": "gem_007",
+    "topic": "Biopsy",
+    "category": "Diagnostic Tests",
+    "query": "What is a biopsy and what is its primary medical purpose?",
+    "ground_truth": "A biopsy is a medical procedure in which a small sample of tissue is removed from the body for microscopic examination. Its primary purpose is to diagnose diseases, most notably to determine whether a tumor or lesion is benign or malignant."
+  },
+  {
+    "id": "gem_008",
+    "topic": "Bone density scan",
+    "category": "Diagnostic Tests",
+    "query": "What does a bone density scan measure and what condition is it used to diagnose?",
+    "ground_truth": "A bone density scan (such as a DEXA scan) measures the amount of mineral content in a specific volume of bone. It is primarily used to diagnose osteoporosis, assess fracture risk, and monitor the effectiveness of treatments for bone loss."
+  },
+  {
+    "id": "gem_009",
+    "topic": "Breast cancer",
+    "category": "Oncology",
+    "query": "What are the key risk factors and diagnostic methods for breast cancer?",
+    "ground_truth": "Breast cancer risk factors include genetic mutations (such as BRCA1 and BRCA2), family history, older age, hormonal factors, and lifestyle choices. Diagnosis involves clinical breast examinations, mammography, ultrasound, and confirmatory tissue biopsy."
+  },
+  {
+    "id": "gem_010",
+    "topic": "Cataract",
+    "category": "Ophthalmology",
+    "query": "What is a cataract and how does it affect vision?",
+    "ground_truth": "A cataract is a clouding of the natural lens inside the eye, which leads to blurred or distorted vision, faded colors, glare sensitivity, and eventual impairment if left untreated. It is most commonly associated with aging."
+  },
+  {
+    "id": "gem_011",
+    "topic": "Celiac disease",
+    "category": "Gastrointestinal Disorders",
+    "query": "What triggers celiac disease and how does it impact the digestive tract?",
+    "ground_truth": "Celiac disease is an autoimmune digestive disorder triggered by the consumption of gluten (a protein found in wheat, barley, and rye). In affected individuals, an immune response damages the villi of the small intestine, leading to malabsorption of nutrients."
+  },
+  {
+    "id": "gem_012",
+    "topic": "Computed tomography (CT) scan",
+    "category": "Diagnostic Tests",
+    "query": "How does a CT scan work compared to standard X-rays?",
+    "ground_truth": "A computed tomography (CT) scan combines a series of X-ray images taken from different angles around the body and uses computer processing to create cross-sectional slices of bones, blood vessels, and soft tissues, providing much more detail than standard X-rays."
+  },
+  {
+    "id": "gem_013",
+    "topic": "Depression",
+    "category": "Mental Health",
+    "query": "What is major depressive disorder and what are its core diagnostic features?",
+    "ground_truth": "Major depressive disorder (clinical depression) is a mood disorder characterized by persistent feelings of sadness, hopelessness, loss of interest in activities (anhedonia), changes in sleep and appetite, and fatigue lasting for at least two weeks."
+  },
+  {
+    "id": "gem_014",
+    "topic": "Diabetes mellitus",
+    "category": "Endocrine Disorders",
+    "query": "What is the fundamental difference between Type 1 and Type 2 diabetes mellitus?",
+    "ground_truth": "Type 1 diabetes is an autoimmune condition where the pancreas produces little or no insulin due to destruction of insulin-producing beta cells. Type 2 diabetes is characterized by insulin resistance, where the body's cells do not respond effectively to insulin, often combined with progressive insulin deficiency."
+  },
+  {
+    "id": "gem_015",
+    "topic": "Echocardiogram",
+    "category": "Cardiovascular Tests",
+    "query": "What is an echocardiogram and what information does it provide about the heart?",
+    "ground_truth": "An echocardiogram is a noninvasive ultrasound test that uses sound waves to create moving images of the heart chambers, valves, walls, and blood vessels, allowing doctors to evaluate heart function, structure, and blood flow."
+  },
+  {
+    "id": "gem_016",
+    "topic": "Epilepsy",
+    "category": "Neurological Disorders",
+    "query": "How is epilepsy defined and what characterizes an epileptic seizure?",
+    "ground_truth": "Epilepsy is a chronic neurological disorder characterized by recurrent, unprovoked seizures. Seizures are temporary episodes of abnormal electrical activity in the brain that can manifest as brief lapses of attention, sensory disturbances, or convulsions."
+  },
+  {
+    "id": "gem_017",
+    "topic": "Glaucoma",
+    "category": "Ophthalmology",
+    "query": "What causes glaucoma and what is the primary risk associated with it?",
+    "ground_truth": "Glaucoma is a group of eye conditions usually caused by abnormally high intraocular pressure within the eye, which damages the optic nerve. If left untreated, it can lead to progressive, irreversible vision loss and blindness."
+  },
+  {
+    "id": "gem_018",
+    "topic": "Gout",
+    "category": "Musculoskeletal Disorders",
+    "query": "What causes gout and which joint is most commonly affected initially?",
+    "ground_truth": "Gout is a complex form of inflammatory arthritis caused by the deposition of monosodium urate crystals in joints, resulting from high levels of uric acid in the blood (hyperuricemia). It frequently flares up suddenly in the joint of the big toe."
+  },
+  {
+    "id": "gem_019",
+    "topic": "Hepatitis B",
+    "category": "Infectious Diseases",
+    "query": "How is Hepatitis B transmitted and what organ does it primarily target?",
+    "ground_truth": "Hepatitis B is a viral infection caused by the Hepatitis B virus (HBV) that primarily targets and damages the liver. It is transmitted through contact with infectious blood, semen, or other body fluids, such as via unprotected sex or shared needles."
+  },
+  {
+    "id": "gem_020",
+    "topic": "Hypertension",
+    "category": "Cardiovascular Disorders",
+    "query": "How is hypertension defined and why is it often called the 'silent killer'?",
+    "ground_truth": "Hypertension, or high blood pressure, is a chronic medical condition where blood pressure persistently exceeds normal levels (typically 140/90 mmHg or higher). It is called the 'silent killer' because it typically exhibits no obvious symptoms for years while causing long-term damage to the heart, blood vessels, and kidneys."
+  },
+  {
+    "id": "gem_021",
+    "topic": "Magnetic resonance imaging (MRI)",
+    "category": "Diagnostic Tests",
+    "query": "What technology does an MRI use to generate images, and what are its advantages?",
+    "ground_truth": "An MRI uses powerful magnets and radiofrequency waves to generate detailed images of internal body structures. Its key advantage is providing exceptionally clear visualization of soft tissues, muscles, brain structures, and ligaments without using ionizing radiation."
+  },
+  {
+    "id": "gem_022",
+    "topic": "Osteoarthritis",
+    "category": "Musculoskeletal Disorders",
+    "topic_normalized": "osteoarthritis",
+    "query": "What is the primary pathological change that occurs in joints affected by osteoarthritis?",
+    "ground_truth": "Osteoarthritis is a degenerative joint disease characterized by the gradual breakdown and wear of articular cartilage that cushions the ends of bones, leading to pain, swelling, stiffness, and loss of joint mobility."
+  },
+  {
+    "id": "gem_023",
+    "topic": "Pneumonia",
+    "category": "Respiratory Disorders",
+    "query": "What is pneumonia and what types of pathogens can cause it?",
+    "ground_truth": "Pneumonia is an inflammatory infection of the lung parenchyma in which the alveoli fill with pus and fluid. It can be caused by various pathogens, including bacteria (e.g., Streptococcus pneumoniae), viruses, and fungi."
+  },
+  {
+    "id": "gem_024",
+    "topic": "Rheumatoid arthritis",
+    "category": "Autoimmune Disorders",
+    "query": "How does rheumatoid arthritis differ from osteoarthritis in terms of origin?",
+    "ground_truth": "Unlike osteoarthritis, which is primarily degenerative and wear-and-tear related, rheumatoid arthritis is a chronic autoimmune inflammatory disorder where the immune system mistakenly attacks the synovium (lining of the membranes surrounding the joints), causing painful swelling, bone erosion, and joint deformity."
+  },
+  {
+    "id": "gem_025",
+    "topic": "Thyroidectomy",
+    "category": "Surgical Procedures",
+    "query": "What is a thyroidectomy and what are the primary medical reasons for performing it?",
+    "ground_truth": "A thyroidectomy is the surgical removal of all or part of the thyroid gland. It is typically performed to treat conditions such as thyroid cancer, hyperthyroidism (overactive thyroid) that does not respond to medication, or large goiters causing compressive symptoms."
+  }
+]

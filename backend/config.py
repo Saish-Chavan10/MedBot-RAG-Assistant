@@ -12,14 +12,13 @@ def _require(key:str) -> str:
         raise EnvironmentError(f"Missing Required env variable: {key}")
     return val
 
-OPEN_API_KEY:str = _require("OPENAI_API_KEY")
 OLLAMA_BASE_URL:str = _require("OLLAMA_BASE_URL")
 PINECONE_KEY:str = _require("PINECONE_API_KEY")
 
 PINECONE_INDEX_NAME:str = os.getenv("PINECONE_INDEX_NAME","medbot-gale")
 PINECONE_ENVIRONMENT:str = os.getenv("PINECONE_ENVIRONMENT", "us-east-1")
 
-LLM_MODEL:str = os.getenv("LLM_MODEL", "qwen2:1.5b")
+LLM_MODEL:str = os.getenv("LLM_MODEL", "qwen2.5:3b")
 EMBEDDING_MODEL_NAME:str = os.getenv("EMBEDDING_MODEL_NAME", "NeuML/pubmedbert-base-embeddings")
 EMBEDDING_DIMENSION:int = os.getenv("EMBEDDING_DIMENSION","768")
 
@@ -47,3 +46,5 @@ SUPABASE_SERVICE_KEY: str = _require("SUPABASE_SERVICE_KEY")
 SUPABASE_ANON_KEY: str    = os.getenv("SUPABASE_ANON_KEY", "")
 JWT_SECRET: str           = _require("JWT_SECRET")
 JWT_EXPIRY_HOURS: int     = int(os.getenv("JWT_EXPIRY_HOURS", "24"))
+
+#LLM_MODEL: str            = _require("GROQ_API_KEY")

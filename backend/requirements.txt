@@ -9,12 +9,12 @@ langchain-ollama==1.0.1
 # Embeddings
 sentence-transformers==5.2.3
 
-# Vector Database
-pinecone-client==4.1.0
+# Vector Database (ONLY use 'pinecone', NEVER include 'pinecone-client')
+pinecone>=5.4.0,<7.0.0
 
-# Document Processing
+# Document Processing (Pinned to 0.8.0 to use pre-built Windows wheels and avoid Rust builds)
 pypdf==4.3.1
-tiktoken==0.9.0
+tiktoken==0.8.0
 
 # Web API
 Flask==3.0.3
@@ -30,4 +30,11 @@ supabase==2.15.1
 
 # Utilities
 colorlog==6.8.2
-tenacity==8.5.0
+tenacity>=8.5.0
+
+# Evaluation
+ragas
+datasets
+pandas
+groq==0.37.1
+langchain-groq==1.1.3

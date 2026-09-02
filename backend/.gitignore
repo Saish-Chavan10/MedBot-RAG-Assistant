@@ -1,0 +1,9 @@
+node_modules/
+
+.env
+logs/
+.venv/
+__pycache__/
+*.pyc
+data/*.pdf
+evaluation/inference_cache_*.json

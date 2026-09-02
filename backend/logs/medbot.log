@@ -337,3 +337,47 @@ model
 2026-07-20 17:41:02,609 | WARNING | src.auth                  | Login Faile - wrong pasword: saishchavan154@gmail.com
 2026-07-20 17:41:14,100 | INFO | src.auth                  | Login Attempt: saishchavan154@gmail.com
 2026-07-20 17:41:16,706 | INFO | src.auth                  | Login Success: saishchavan154@gmail.com
+2026-10-24 17:02:49,851 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-10-24 17:04:59,058 | INFO | src.vectorstore           | Vector tore loaded
+2026-10-24 17:04:59,164 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-10-24 17:11:10,650 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-10-24 17:11:52,542 | INFO | src.vectorstore           | Vector tore loaded
+2026-10-24 17:11:52,692 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-10-24 23:57:38,556 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-10-24 23:58:39,126 | INFO | src.vectorstore           | Vector tore loaded
+2026-10-24 23:58:39,348 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-10-25 12:10:53,489 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-10-25 12:12:14,001 | INFO | src.vectorstore           | Vector tore loaded
+2026-10-25 12:12:14,318 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-10-25 12:48:32,366 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-10-25 12:49:17,906 | INFO | src.vectorstore           | Vector tore loaded
+2026-10-25 12:49:18,082 | INFO | src.RAG_chain             | RAG chain built [model=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, temp=0.3]
+2026-10-25 12:57:47,809 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-10-25 12:58:14,229 | INFO | src.vectorstore           | Vector tore loaded
+2026-10-25 12:58:14,332 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-10-25 13:02:39,066 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-10-25 13:03:04,585 | INFO | src.vectorstore           | Vector tore loaded
+2026-10-25 13:03:04,703 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-10-25 13:04:21,021 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-10-25 13:04:42,859 | INFO | src.vectorstore           | Vector tore loaded
+2026-10-25 13:04:42,926 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-10-25 13:52:53,659 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-10-25 13:53:31,281 | INFO | src.vectorstore           | Vector tore loaded
+2026-10-25 13:53:31,450 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-10-25 14:49:54,854 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-10-25 17:16:34,632 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-10-25 17:22:42,399 | INFO | src.vectorstore           | Vector tore loaded
+2026-10-25 17:22:43,000 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-10-26 12:14:49,446 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-10-26 12:15:56,611 | INFO | src.vectorstore           | Vector tore loaded
+2026-10-26 12:15:56,885 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-10-26 12:36:14,821 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-10-26 12:46:09,732 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-10-26 12:47:27,809 | INFO | src.vectorstore           | Vector tore loaded
+2026-10-26 12:47:28,132 | INFO | src.RAG_chain             | RAG chain built [model=qwen2:1.5b, temp=0.3]
+2026-10-26 14:37:34,848 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-10-26 14:38:37,700 | INFO | src.vectorstore           | Vector tore loaded
+2026-10-26 14:38:38,023 | INFO | src.RAG_chain             | RAG chain built [model=qwen2.5:3b, temp=0.1]
+2026-10-26 14:44:22,673 | INFO | src.vectorstore           | Loading Pinecone index 'medbot-gale'
+2026-10-26 14:45:24,614 | INFO | src.vectorstore           | Vector tore loaded
+2026-10-26 14:45:24,858 | INFO | src.RAG_chain             | RAG chain built [model=qwen2.5:3b, temp=0.1]

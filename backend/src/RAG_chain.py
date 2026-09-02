@@ -26,6 +26,7 @@ You help doctors and medical professionals get accurate, well-structured medical
 RULES:
 - Answer ONLY from the provided context below.
 - Use proper medical terminology.
+- Answer in 3 to 5 sentences. No lists unless asked.
 - Structure your answer clearly: always start with a brief definition, then cover causes, symptoms, diagnosis, and treatment where relevant.
 - If the context does not have enough information, say: "I don't have sufficient information in the encyclopedia to answer this accurately."
 - Never fabricate or guess medical facts.
@@ -50,7 +51,9 @@ def get_llm() -> ChatOllama:
         model=LLM_MODEL,
         temperature=LLM_TEMPERATURE,
         num_predict=MAX_TOKENS_RESPONSE, # Fixed max_tokens -> num_predict for Ollama
-        base_url=OLLAMA_BASE_URL         # Fixed ollam_base_url -> base_url
+        base_url=OLLAMA_BASE_URL,         # Fixed ollam_base_url -> base_url
+        num_ctx=4096,          # Ollama's default 2048 can silently truncate your 5 chunks
+        repeat_penalty=1.15
     )
 
 def build_rag_chain(retriever):
