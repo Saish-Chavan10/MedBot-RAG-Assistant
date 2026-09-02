@@ -2,7 +2,7 @@ import Cookies from "js-cookie";
 
 const TOKEN_KEY = "medbot_token";
 const USER_KEY = "medbot_user";
-const backendURL = process.env.NEXT_PUBLIC_BACKEND_URL;
+const backendURL = process.env.NEXT_PUBLIC_BACKEND_URL || "";
 
 export interface User {
     id: string;
